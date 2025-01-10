@@ -1,0 +1,64 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 7px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.image {
+}
+
+.infoName {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+.infoTag,
+.infoLocation {
+  font-size: 24px;
+  color: grey;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  /* gap: 8px; */
+  border-top: 1px solid grey;
+  width: 100%;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: calc((100% - 16px) / 3);
+}
+
+.statsItem:nth-child(even) {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.statsName {
+  font-size: 24px;
+}
+
+.statsValue {
+  font-size: 28px;
+  font-weight: bold;
+}

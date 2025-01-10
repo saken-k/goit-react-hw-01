@@ -1,0 +1,28 @@
+.table {
+  border: 1px solid #000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tableHeader {
+  color: white;
+  padding: 0 16px;
+}
+
+.tableContent {
+  color: black;
+  background-color: #fff;
+}
+
+.tableTh {
+  width: 96px;
+}
+
+.tableTd,
+.tableTh {
+  padding: 0 16px;
+}
+
+.tableContent:nth-child(odd) {
+  background-color: #696666;
+}
