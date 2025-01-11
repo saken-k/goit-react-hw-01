@@ -5,26 +5,3 @@
   gap: 8px;
   margin-top: 20px;
 }
-
-.friendsItem {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid #000;
-  border-radius: 7px;
-  padding: 10px;
-}
-
-.friendName {
-  font-size: 20px;
-}
-
-.friendStatus {
-  color: red;
-}
-
-.online {
-  color: green;
-}
